@@ -23,3 +23,15 @@ html, body{
   display: flex;
   margin: 20px;
 }
+
+/*para tener el contador y los botones uno debajo de otro,
+estilizamos la clase contenedor principal*/
+.contenedor-principal {
+  min-width: 650px;
+  height: 550px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
