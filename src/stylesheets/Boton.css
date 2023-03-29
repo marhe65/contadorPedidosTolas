@@ -1,0 +1,23 @@
+button{
+  width: 250px;
+  height: 80px;
+  font-size: 35px;
+  font-family: Amsipro, Amsiprocond, Arial;
+  font-weight: bold;
+  color: white;
+  border: 2px solid white;
+  border-radius: 15px;
+  margin: 5px;
+  cursor: pointer;/*al pasar por el botón, el puntero se vuleve una manito*/
+}
+/*cambiemos el color del botón cuando pase el mouse por encima*/
+button:hover{
+  background-color: #D33741;
+}
+/*cambiemos el color de los botones cuando hagamos clic*/
+.boton-clic{
+  background-color: #EE9D2E;
+}
+.boton-reiniciar{
+  background-color: #3E2211;
+}

@@ -8,3 +8,18 @@ html, body{
   background-color: #f2e858;
 }
 
+.App{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  /*las 2 prop anteriores hacen que el logo se centre horizontal y verticalmente*/
+  padding-top: 15px;
+}
+
+.tolas-logo-contenedor{
+  /*width: 500px;*/
+  height: 650px;
+  display: flex;
+  margin: 20px;
+}
